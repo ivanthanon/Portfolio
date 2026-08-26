@@ -74,7 +74,7 @@ const en: TranslationKeys = {
   about: {
     title: "About Me",
     intro:
-      "Software Craftsperson with a product-oriented mindset and a solid software engineering foundation. My approach bridges technical excellence with Lean principles: I focus on maximizing delivered value while minimizing waste, always iterating based on real-world feedback.",
+      "Software Craftsperson with over 3 years of experience, a product-oriented mindset and a solid software engineering foundation. My approach bridges technical excellence with Lean principles: I focus on maximizing delivered value while minimizing waste, always iterating based on real-world feedback.",
     blocks: [
       {
         title: "🛠️ Technical Approach",
@@ -205,7 +205,7 @@ const es: TranslationKeys = {
   about: {
     title: "Sobre Mí",
     intro:
-      "Software Craftsperson con mentalidad de producto y una base sólida de ingeniería de software. Mi enfoque conecta la excelencia técnica con principios Lean: me enfoco en maximizar el valor entregado mientras minimizo el desperdicio, iterando siempre en base a feedback del mundo real.",
+      "Software Craftsperson con más de 3 años de experiencia, mentalidad de producto y una base sólida de ingeniería de software. Mi enfoque conecta la excelencia técnica con principios Lean: me enfoco en maximizar el valor entregado mientras minimizo el desperdicio, iterando siempre en base a feedback del mundo real.",
     blocks: [
       {
         title: "🛠️ Enfoque Técnico",
