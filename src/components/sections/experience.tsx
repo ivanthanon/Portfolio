@@ -29,7 +29,7 @@ export function Experience() {
                   </div>
                 </div>
 
-                <div className="card w-full">
+                <div className="card mb-6 w-full">
                   <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
                     <div>
                       <h3 className="text-lg font-semibold">{role.title}</h3>
