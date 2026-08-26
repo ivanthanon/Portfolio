@@ -275,26 +275,26 @@ const es: TranslationKeys = {
     },
   },
   skills: {
-    title: "Tech Stack & Habilidades",
+    title: "Tech Stack & Skills",
     categories: [
       {
         name: "Backend",
-        items: ["C# / .NET", "Java / Spring Boot", "TypeScript / NestJS", "SQL", "PostgreSQL", "Redis"],
+        items: ["C# / .NET", "Java / Spring Boot", "TypeScript / NestJS", "SQLServer", "MySQL", "PostgreSQL"],
       },
       {
-        name: "Arquitectura y Diseño",
-        items: ["Arquitectura Hexagonal", "DDD", "CQRS", "Clean Code", "SOLID", "Patrones de Diseño"],
+        name: "Architecture & Design",
+        items: ["Hexagonal Architecture", "DDD", "CQRS", "Clean Code", "SOLID", "Design Patterns"],
       },
       {
-        name: "Testing y Calidad",
-        items: ["TDD (Outside-In)", "xUnit / NUnit", "Mockito", "Tests de Integración", "Testing E2E"],
+        name: "Testing & Quality",
+        items: ["TDD", "Unit", "Integration", "Contract", "E2E", "TestContainers"],
       },
       {
-        name: "DevOps y CI/CD",
-        items: ["GitHub Actions", "Docker", "Kubernetes", "Feature Flags", "Pila LGTM", "Azure DevOps"],
+        name: "DevOps & CI/CD",
+        items: ["GitHub Actions", "Docker", "Kubernetes", "Feature Flags", "Grafana", "Azure DevOps", "ArgoCD"],
       },
       {
-        name: "Prácticas y Metodologías",
+        name: "Practices & Methodologies",
         items: ["XP", "Lean", "Software Craftsmanship", "Pair Programming", "CI/CD", "Trunk-Based Development"],
       },
     ],
