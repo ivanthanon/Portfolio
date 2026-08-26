@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-surface: #ffffff;
+  --color-surface-raised: #f8f9fa;
+  --color-surface-overlay: #f0f1f3;
+  --color-accent: #0d6efd;
+  --color-accent-hover: #0b5ed7;
+  --color-accent-10: rgba(13, 110, 253, 0.1);
+  --color-accent-50: rgba(13, 110, 253, 0.5);
+  --color-border: #e2e8f0;
+  --color-muted: #64748b;
+  --color-surface-80: rgba(255, 255, 255, 0.8);
+  --color-surface-95: rgba(255, 255, 255, 0.95);
+  --color-shadow-accent-25: rgba(13, 110, 253, 0.25);
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+}
+
+.dark {
+  --color-surface: #0f1117;
+  --color-surface-raised: #181b25;
+  --color-surface-overlay: #1e2231;
+  --color-accent: #60a5fa;
+  --color-accent-hover: #93c5fd;
+  --color-accent-10: rgba(96, 165, 250, 0.1);
+  --color-accent-50: rgba(96, 165, 250, 0.5);
+  --color-border: #1e293b;
+  --color-muted: #94a3b8;
+  --color-surface-80: rgba(15, 17, 23, 0.8);
+  --color-surface-95: rgba(15, 17, 23, 0.95);
+  --color-shadow-accent-25: rgba(96, 165, 250, 0.25);
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-surface text-slate-800 dark:text-slate-200 antialiased;
+  }
+
+  body ::selection {
+    background-color: rgba(96, 165, 250, 0.2);
+    color: var(--color-accent);
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply mx-auto max-w-5xl px-6 py-20 md:py-28;
+  }
+
+  .section-title {
+    @apply text-2xl font-bold tracking-tight sm:text-3xl;
+  }
+
+  .card {
+    @apply rounded-xl border border-border bg-surface-raised p-6 transition-colors;
+  }
+
+  .card:hover {
+    border-color: var(--color-accent-50);
+  }
+}
+
+@layer utilities {
+  .bg-accent-10 { background-color: var(--color-accent-10); }
+  .bg-accent-50 { background-color: var(--color-accent-50); }
+  .border-accent-30 { border-color: var(--color-accent-50); }
+  .border-accent-40 { border-color: var(--color-accent-50); }
+  .border-accent-50 { border-color: var(--color-accent-50); }
+  .shadow-accent-25 { box-shadow: 0 10px 15px -3px var(--color-shadow-accent-25), 0 4px 6px -4px var(--color-shadow-accent-25); }
+  .bg-surface-80 { background-color: var(--color-surface-80); }
+  .bg-surface-95 { background-color: var(--color-surface-95); }
+}
