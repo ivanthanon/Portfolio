@@ -148,23 +148,23 @@ const en: TranslationKeys = {
     categories: [
       {
         name: "Backend",
-        items: ["C# / .NET", "Java / Spring Boot", "TypeScript / NestJS", "SQLServer", "MySQL", "PostgreSQL"],
+        items: ["C# / .NET", "Java / Spring Boot", "TypeScript / NestJS", "SQLServer", "MySQL", "PostgreSQL", "Entity Framework"],
       },
       {
         name: "Architecture & Design",
-        items: ["Hexagonal Architecture", "DDD", "CQRS", "Clean Code", "SOLID", "Design Patterns"],
+        items: ["Hexagonal Architecture", "TDD", "Event Driven Architecture", "Microservices", "DDD", "CQRS", "Clean Code", "SOLID", "Design Patterns"],
       },
       {
-        name: "Testing & Quality",
-        items: ["TDD", "Unit", "Integration", "Contract", "E2E", "TestContainers"],
+        name: "Testing",
+        items: ["Unit", "Integration", "Contract", "Smoke", "E2E", "TestContainers"],
       },
       {
-        name: "DevOps & CI/CD",
-        items: ["GitHub Actions", "Docker", "Kubernetes", "Feature Flags", "Grafana", "Azure DevOps", "ArgoCD"],
+        name: "DevOps & Tools",
+        items: ["GitHub Actions", "Docker", "Kubernetes", "Grafana", "Azure DevOps", "ArgoCD"],
       },
       {
         name: "Practices & Methodologies",
-        items: ["XP", "Lean", "Software Craftsmanship", "Pair Programming", "CI/CD", "Trunk-Based Development"],
+        items: ["XP", "Lean", "Software Craftsmanship", "Pair Programming", "CI/CD", "Trunk-Based Development", "Scrum", "Agile"],
       },
     ],
   },
