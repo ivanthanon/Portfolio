@@ -15,13 +15,14 @@ export function Experience() {
           <h2 className="section-title mb-12">{experience.title}</h2>
         </Reveal>
 
-        <div className="relative space-y-0">
-          {/* Timeline line */}
-          <div className="absolute left-[19px] top-0 bottom-0 hidden w-px bg-border md:block" />
-
+        <div className="space-y-0">
           {experience.roles.map((role, i) => (
             <Reveal key={i} delay={i * 150}>
               <div className="group relative flex gap-6 pb-10 last:pb-0">
+                {/* Timeline line */}
+                {i < experience.roles.length - 1 && (
+                  <div className="absolute left-[19px] top-0 bottom-0 hidden w-px bg-border md:block" />
+                )}
                 {/* Timeline dot */}
                 <div className="relative z-10 mt-1 hidden md:block">
                   <div className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-surface-raised transition-colors border-accent-50">
