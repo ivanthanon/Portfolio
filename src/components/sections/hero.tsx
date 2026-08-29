@@ -2,7 +2,7 @@
 
 import { useI18n } from "@/lib/i18n-context";
 import { Reveal } from "@/components/ui/reveal";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 
 export function Hero() {
   const { t } = useI18n();
@@ -41,6 +41,14 @@ export function Hero() {
           >
             <Mail className="h-4 w-4" />
             {t.hero.cta}
+          </a>
+          <a
+            href="/IVAN_THANON_MORENO_CV_0926.pdf"
+            download="Ivan_Thanon_Moreno_CV.pdf"
+            className="inline-flex items-center gap-2 rounded-lg border border-border px-6 py-3 text-sm font-semibold transition-colors border-accent-40 hover:text-accent"
+          >
+            <Download className="h-4 w-4" />
+            {t.hero.downloadCv}
           </a>
           <a
             href="https://github.com/ivanthanon"
