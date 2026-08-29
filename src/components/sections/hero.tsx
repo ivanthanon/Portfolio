@@ -71,10 +71,10 @@ export function Hero() {
         </div>
       </Reveal>
 
-      <Reveal delay={500}>
+      <Reveal delay={500} className="mt-20">
         <a
           href="#about"
-          className="mt-20 text-muted transition-colors hover:text-accent"
+          className="text-muted transition-colors hover:text-accent"
           aria-label="Scroll down"
         >
           <ArrowDown className="h-5 w-5 animate-bounce" />
