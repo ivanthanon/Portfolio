@@ -74,7 +74,7 @@ const en: TranslationKeys = {
   about: {
     title: "About Me",
     intro:
-      "Software Craftsperson with over 3 years of experience, a product-oriented mindset and a solid software engineering foundation. My approach bridges technical excellence with Lean principles: I focus on maximizing delivered value while minimizing waste, always iterating based on real-world feedback.",
+      "Software Craftsperson with 3+ years of experience, a product-oriented mindset and a solid software engineering foundation. My approach bridges technical excellence with Lean principles: I focus on maximizing delivered value while minimizing waste, always iterating based on real-world feedback.",
     blocks: [
       {
         title: "🛠️ Technical Approach",
@@ -111,7 +111,7 @@ const en: TranslationKeys = {
           "Developed product-oriented solutions for the automotive industry, focusing on warranties and campaigns for clients such as Volkswagen, Hyundai, Toyota, Renault and Citroën, managing an annual business value of €500k.",
           "Enhanced CI/CD pipelines, cutting execution times by 40% when handling transient errors.",
           "Actively participate in the testing strategy based on Hexagonal Architecture covering E2E, integration, contract, unit, and smoke testing.",
-          "Guided a 7-person team toward a CI/CD flow utilizing Feature Flags and Parallel Change.",
+          "Contributed, as part of a 7-person team, to implementing a CI/CD workflow using Feature Flags and Parallel Change.",
           "Delivered technical training and provided mentorship to junior profiles to ensure a smooth onboarding process.",
           "Translated key engineering initiatives for the team, such as implementing system resilience practices and preparing software artifacts for Kubernetes environments with ArgoCD.",
           "Implemented full-stack observability across artifacts using the LGTM stack (Loki, Grafana, Tempo, Mimir), lowering the Mean Time To Resolution (MTTR) and preventing critical production downtime.",
@@ -242,7 +242,7 @@ const es: TranslationKeys = {
           "Desarrollé soluciones orientadas a producto para la industria automotriz, enfocándome en garantías y campañas para clientes como Volkswagen, Hyundai, Toyota, Renault y Citroën, gestionando un valor de negocio anual de 500K€.",
           "Mejoré los pipelines de CI/CD, reduciendo los tiempos de ejecución en un 40% al gestionar errores transitorios.",
           "Participo activamente en la estrategia de testing basada en Arquitectura Hexagonal cubriendo E2E, integración, contrato, unit y smoke testing.",
-          "Guié a un equipo de 7 personas hacia un flujo de CI/CD utilizando Feature Flags y Parallel Change.",
+          "Contribuí, junto con un equipo de 7 personas, en la implementación de un flujo de CI/CD utilizando Feature Flags y Parallel Change.",
           "Impartí formación técnica y proporcioné mentoría a perfiles junior para garantizar un proceso de onboarding fluido.",
           "Traduje iniciativas clave de ingeniería para el equipo, como la implementación de prácticas de resiliencia de sistemas y la preparación de artefactos de software para entornos de Kubernetes con ArgoCD.",
           "Implementé observabilidad full-stack en los artefactos usando la pila LGTM (Loki, Grafana, Tempo, Mimir), reduciendo el Mean Time To Resolution (MTTR) y previniendo tiempos de inactividad críticos en producción.",
