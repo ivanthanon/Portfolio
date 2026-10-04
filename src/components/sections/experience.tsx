@@ -3,6 +3,7 @@
 import { useI18n } from "@/lib/i18n-context";
 import { Reveal } from "@/components/ui/reveal";
 import { Briefcase } from "lucide-react";
+import Image from "next/image";
 
 export function Experience() {
   const { t } = useI18n();
@@ -34,7 +35,22 @@ export function Experience() {
                   <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
                     <div>
                       <h3 className="text-lg font-semibold">{role.title}</h3>
-                      <p className="text-sm font-medium text-accent">{role.company}</p>
+                      <Image
+                        src="/companies/aidalight.gif"
+                        alt={role.company}
+                        width={1579}
+                        height={344}
+                        unoptimized
+                        className="mt-2 h-3 w-auto object-contain dark:hidden"
+                      />
+                      <Image
+                        src="/companies/aidadark.gif"
+                        alt={role.company}
+                        width={1579}
+                        height={344}
+                        unoptimized
+                        className="mt-2 hidden h-3 w-auto object-contain dark:block"
+                      />
                     </div>
                     <span className="font-mono text-xs text-muted">{role.period}</span>
                   </div>

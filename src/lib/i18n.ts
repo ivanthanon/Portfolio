@@ -106,7 +106,7 @@ const en: TranslationKeys = {
       {
         company: "AIDA",
         title: "Backend Software Engineer",
-        period: "Jul 2025 — Present · 1 yr 2 mo",
+        period: "Jul 2025 — Sep 2026 · 1 yr 3 mo",
         highlights: [
           "Developed product-oriented solutions for the automotive industry, focusing on warranties and campaigns for clients such as Volkswagen, Hyundai, Toyota, Renault and Citroën, managing an annual business value of €500k.",
           "Enhanced CI/CD pipelines, cutting execution times by 40% when handling transient errors.",
@@ -237,7 +237,7 @@ const es: TranslationKeys = {
       {
         company: "AIDA",
         title: "Backend Software Engineer",
-        period: "Jul 2025 — Actualidad · 1 año 2 meses",
+        period: "Jul 2025 — Sep 2026 · 1 año 3 meses",
         highlights: [
           "Desarrollé soluciones orientadas a producto para la industria automotriz, enfocándome en garantías y campañas para clientes como Volkswagen, Hyundai, Toyota, Renault y Citroën, gestionando un valor de negocio anual de 500K€.",
           "Mejoré los pipelines de CI/CD, reduciendo los tiempos de ejecución en un 40% al gestionar errores transitorios.",
