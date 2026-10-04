@@ -22,6 +22,7 @@ export type TranslationKeys = {
     title: string;
     roles: {
       company: string;
+      logo: "aida" | "leanmind";
       title: string;
       period: string;
       highlights: string[];
@@ -104,7 +105,15 @@ const en: TranslationKeys = {
     title: "Experience",
     roles: [
       {
+        company: "Lean Mind",
+        logo: "leanmind",
+        title: "Software Engineer",
+        period: "Sep 2026 — Present",
+        highlights: [],
+      },
+      {
         company: "AIDA",
+        logo: "aida",
         title: "Backend Software Engineer",
         period: "Jul 2025 — Sep 2026 · 1 yr 3 mo",
         highlights: [
@@ -121,6 +130,7 @@ const en: TranslationKeys = {
       },
       {
         company: "AIDA",
+        logo: "aida",
         title: "Associate Backend Engineer",
         period: "Oct 2023 — Jul 2025 · 1 yr 10 mo",
         highlights: [
@@ -235,7 +245,15 @@ const es: TranslationKeys = {
     title: "Experiencia",
     roles: [
       {
+        company: "Lean Mind",
+        logo: "leanmind",
+        title: "Software Engineer",
+        period: "Sep 2026 — Actualidad",
+        highlights: [],
+      },
+      {
         company: "AIDA",
+        logo: "aida",
         title: "Backend Software Engineer",
         period: "Jul 2025 — Sep 2026 · 1 año 3 meses",
         highlights: [
@@ -252,6 +270,7 @@ const es: TranslationKeys = {
       },
       {
         company: "AIDA",
+        logo: "aida",
         title: "Associate Backend Engineer",
         period: "Oct 2023 — Jul 2025 · 1 año 10 meses",
         highlights: [
