@@ -35,34 +35,49 @@ export function Experience() {
                   <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
                     <div>
                       <h3 className="text-lg font-semibold">{role.title}</h3>
-                      <Image
-                        src="/companies/aidalight.gif"
-                        alt={role.company}
-                        width={1579}
-                        height={344}
-                        unoptimized
-                        className="mt-2 h-3 w-auto object-contain dark:hidden"
-                      />
-                      <Image
-                        src="/companies/aidadark.gif"
-                        alt={role.company}
-                        width={1579}
-                        height={344}
-                        unoptimized
-                        className="mt-2 hidden h-3 w-auto object-contain dark:block"
-                      />
+                      {role.logo === "leanmind" ? (
+                        <Image
+                          src="/companies/leanmind.gif"
+                          alt={role.company}
+                          width={1954}
+                          height={648}
+                          unoptimized
+                          className="mt-2 h-6 w-auto object-contain"
+                        />
+                      ) : (
+                        <>
+                          <Image
+                            src="/companies/aidalight.gif"
+                            alt={role.company}
+                            width={1579}
+                            height={344}
+                            unoptimized
+                            className="mt-2 h-3 w-auto object-contain dark:hidden"
+                          />
+                          <Image
+                            src="/companies/aidadark.gif"
+                            alt={role.company}
+                            width={1579}
+                            height={344}
+                            unoptimized
+                            className="mt-2 hidden h-3 w-auto object-contain dark:block"
+                          />
+                        </>
+                      )}
                     </div>
                     <span className="font-mono text-xs text-muted">{role.period}</span>
                   </div>
 
-                  <ul className="space-y-2">
-                    {role.highlights.map((h, j) => (
-                      <li key={j} className="flex items-start gap-2 text-sm leading-relaxed text-muted">
-                        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-50" />
-                        {h}
-                      </li>
-                    ))}
-                  </ul>
+                  {role.highlights.length > 0 && (
+                    <ul className="space-y-2">
+                      {role.highlights.map((h, j) => (
+                        <li key={j} className="flex items-start gap-2 text-sm leading-relaxed text-muted">
+                          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent-50" />
+                          {h}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               </div>
             </Reveal>
